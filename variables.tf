@@ -19,7 +19,7 @@ variable "tags" {
   default     = {}
 }
 
-variables "public_network_access_enabled" {
+variable "public_network_access_enabled" {
   description = "Is public network access enabled?"
   type        = bool
   defualt     = true
