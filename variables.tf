@@ -18,3 +18,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variables "public_network_access_enabled" {
+  description = "Is public network access enabled?"
+  type        = boolean
+  defualt     = true
+}
