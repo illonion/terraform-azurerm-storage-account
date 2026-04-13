@@ -1,7 +1,8 @@
 resource "azurerm_storage_account" "this" {
-  name                = var.name
-  resource_group_name = var.resource_group_name
-  location            = var.location
+  name                          = var.name
+  resource_group_name           = var.resource_group_name
+  location                      = var.location
+  public_network_access_enabled = var.public_network_access_enabled
 
   # Hardcoded values
   account_kind             = "StorageV2"
