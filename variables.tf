@@ -21,6 +21,6 @@ variable "tags" {
 
 variables "public_network_access_enabled" {
   description = "Is public network access enabled?"
-  type        = boolean
+  type        = bool
   defualt     = true
 }
